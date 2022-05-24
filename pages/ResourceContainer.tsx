@@ -1,8 +1,13 @@
-function ResourceContainer() {
+import { resources } from "../data/resources";
+import Resource from "./Resource";
+
+function ResourceContainer(): any {
   return (
-    <>
-      <h1>ResourceContainer</h1>
-    </>
+    resources
+      // .filter((resource) => resource)
+      .map((resource) => {
+        return <Resource key={resource.id} data={resource} />;
+      })
   );
 }
 

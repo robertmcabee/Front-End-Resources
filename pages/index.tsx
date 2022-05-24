@@ -1,7 +1,8 @@
 import { useState } from "react";
 import Head from "next/head";
 import Header from "./Header";
-import SearchBar from "./SearchBar";
+import TagSelector from "./TagSelector";
+import ResourceContainer from "./ResourceContainer";
 
 const Home: any = () => {
   const [filter, setFilter] = useState([]);
@@ -15,7 +16,8 @@ const Home: any = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <SearchBar />
+      <TagSelector />
+      <ResourceContainer />
     </div>
   );
 };
