@@ -4,7 +4,6 @@ interface data {
   name: string;
   url: string;
   description: string;
-  imageURL: string;
   tags: string[];
   starred: boolean;
 }
@@ -19,22 +18,26 @@ function Resource({
   toggleFilter: (tag: string) => void;
 }) {
   return (
-    <a href={data.url}>
-      <div className="bg-white cursor-pointer">
-        <h2>{data.name}</h2>
+    <div className="card max-w-md bg-base-200 shadow-xl">
+      <div className="card-body">
+        <a href={data.url}>
+          <h2 className="link card-title">{data.name}</h2>
+        </a>
         <p>{data.description}</p>
-        {data.tags.map((tag: string) => {
-          return (
-            <Tag
-              tag={tag}
-              key={tag}
-              filter={filter}
-              toggleFilter={toggleFilter}
-            />
-          );
-        })}
+        <div className="card-actions">
+          {data.tags.map((tag: string) => {
+            return (
+              <Tag
+                tag={tag}
+                key={tag}
+                filter={filter}
+                toggleFilter={toggleFilter}
+              />
+            );
+          })}
+        </div>
       </div>
-    </a>
+    </div>
   );
 }
 

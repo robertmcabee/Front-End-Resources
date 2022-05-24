@@ -7,8 +7,8 @@ function Tag({
   filter: string[];
   toggleFilter: (tag: string) => void;
 }) {
-  let tagClass = "p-2 m-1 cursor-pointer";
-  if (filter.includes(tag)) tagClass += " bg-green-200";
+  let tagClass = "m-1 p-3 badge";
+  if (filter.includes(tag)) tagClass += " badge-primary";
 
   return (
     <button onClick={() => toggleFilter(tag)} className={tagClass}>
