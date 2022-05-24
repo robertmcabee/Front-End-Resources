@@ -9,14 +9,29 @@ interface data {
   starred: boolean;
 }
 
-function Resource({ data }: { data: data }) {
+function Resource({
+  data,
+  filter,
+  toggleFilter,
+}: {
+  data: data;
+  filter: string[];
+  toggleFilter: (tag: string) => void;
+}) {
   return (
     <a href={data.url}>
       <div className="bg-white cursor-pointer">
         <h2>{data.name}</h2>
         <p>{data.description}</p>
         {data.tags.map((tag: string) => {
-          return <Tag tag={tag} key={tag} />;
+          return (
+            <Tag
+              tag={tag}
+              key={tag}
+              filter={filter}
+              toggleFilter={toggleFilter}
+            />
+          );
         })}
       </div>
     </a>

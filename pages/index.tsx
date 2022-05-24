@@ -5,8 +5,15 @@ import TagSelector from "./TagSelector";
 import ResourceContainer from "./ResourceContainer";
 
 const Home: any = () => {
-  const [filter, setFilter] = useState([]);
-  const [search, setSearch] = useState("");
+  const [filter, setFilter] = useState<string[]>([]);
+
+  function toggleFilter(tag: string): void {
+    if (filter.includes(tag)) {
+      setFilter(filter.filter((item) => item !== tag));
+    } else {
+      setFilter([...filter, tag]);
+    }
+  }
 
   return (
     <div>
@@ -16,8 +23,8 @@ const Home: any = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <TagSelector />
-      <ResourceContainer />
+      <TagSelector filter={filter} toggleFilter={toggleFilter} />
+      <ResourceContainer filter={filter} toggleFilter={toggleFilter} />
     </div>
   );
 };
