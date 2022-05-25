@@ -9,13 +9,14 @@ function ResourceContainer({
   toggleFilter: (tag: string) => void;
 }): any {
   return (
-    <main className="flex space-x-4 space-y-4 flex-wrap justify-center">
+    <main className="px-4 grid grid-cols-1 xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 justify-center">
       {resources.map((resource) => {
         //filter out resources by tags
-        let render = false;
-        resource.tags.forEach((tag) => {
-          //renders if filter includes tag or if filter is empty
-          if (filter.includes(tag) || filter.length === 0) render = true;
+        let render = true;
+        filter.forEach((filterTag) => {
+          if (!resource.tags.includes(filterTag)) {
+            render = false;
+          }
         });
         if (render)
           return (

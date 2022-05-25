@@ -7,7 +7,7 @@ function Tag({
   filter: string[];
   toggleFilter: (tag: string) => void;
 }) {
-  let tagClass = "m-1 p-3 badge";
+  let tagClass = "m-1 p-3 badge hover:text-white";
   if (filter.includes(tag)) tagClass += " badge-primary";
 
   return (

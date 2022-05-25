@@ -21,6 +21,10 @@ function TagSelector({
     "git",
     "documentation",
     "cheatsheet",
+    "style-guide",
+    "flexbox",
+    "optimization",
+    "security",
   ];
   const tagDisplay = tagList.map((tag: string) => {
     return (
@@ -29,9 +33,9 @@ function TagSelector({
   });
 
   return (
-    <div className="w-full flex justify-center text-center">
+    <div id="tags" className="w-full flex justify-center text-center py-8">
       <div className="max-w-xl">
-        <p id="tags">Select a filter:</p>
+        <p className="pb-2">Select a filter:</p>
         {tagDisplay}
       </div>
     </div>
