@@ -7,26 +7,27 @@ function TagSelector({
   toggleFilter: (tag: string) => void;
 }): any {
   const tagList = [
-    "html",
-    "css",
-    "javascript",
-    "icons",
-    "svg",
-    "regex",
+    "accessibility",
     "advanced",
-    "ui",
-    "design",
-    "react",
-    "components",
-    "git",
-    "documentation",
     "cheatsheet",
-    "style-guide",
+    "css",
+    "design",
+    "documentation",
     "flexbox",
+    "git",
+    "html",
+    "icons",
+    "javascript",
     "optimization",
+    "react",
+    "regex",
     "security",
+    "seo",
+    "style-guide",
+    "svg",
+    "ui",
   ];
-  const tagDisplay = tagList.map((tag: string) => {
+  const tagDisplay = tagList.sort().map((tag: string) => {
     return (
       <Tag tag={tag} key={tag} filter={filter} toggleFilter={toggleFilter} />
     );

@@ -40,16 +40,16 @@ function Resource({
       </div>
       <div className="card-body">
         <a target="_blank" href={data.url} rel="noreferrer" className="group">
-          <h2 className="dark:text-white pb-4 transition-all link card-title">
+          <h2 className="dark:text-white group-hover:opacity-50 pb-4 transition-all link card-title">
             {data.name}
           </h2>
-          <p className="dark:group-hover:text-white transition-colors">
+          <p className="group-hover:opacity-50 transition-colors">
             {data.description}
           </p>
         </a>
         <div className="h-full"></div>
         <div className="flex flex-wrap">
-          {data.tags.map((tag: string) => {
+          {data.tags.sort().map((tag: string) => {
             return (
               <Tag
                 tag={tag}
