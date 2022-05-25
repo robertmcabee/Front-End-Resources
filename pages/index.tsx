@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import TagSelector from "../components/TagSelector";
 import ResourceContainer from "../components/ResourceContainer";
+import Footer from "../components/Footer";
 
 const Home: any = () => {
   const [filter, setFilter] = useState<string[]>([]);
@@ -25,6 +26,7 @@ const Home: any = () => {
       <Header />
       <TagSelector filter={filter} toggleFilter={toggleFilter} />
       <ResourceContainer filter={filter} toggleFilter={toggleFilter} />
+      <Footer />
     </div>
   );
 };
