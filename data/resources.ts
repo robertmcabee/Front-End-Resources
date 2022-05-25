@@ -13,7 +13,7 @@ export const resources = [
     url: "https://css-tricks.com/",
     description: "CSS-Tricks is a website about websites.",
     tags: ["css"],
-    starred: false,
+    starred: true,
   },
   {
     id: 2,
@@ -21,12 +21,12 @@ export const resources = [
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet",
     description:
       "This page provides an overall cheat sheet of all the capabilities of RegExp syntax by aggregating the content of the articles in the RegExp guide.",
-    tags: ["regex", "javascript"],
+    tags: ["regex", "javascript", "cheatsheet"],
     starred: false,
   },
   {
     id: 3,
-    name: "Boxicons : Premium web friendly icons for free",
+    name: "Boxicons: Premium web friendly icons for free",
     url: "https://boxicons.com/",
     description:
       "Boxicons is a free collection of carefully crafted open source icons. Designed on a 24px grid with the material guidelines",
@@ -35,7 +35,7 @@ export const resources = [
   },
   {
     id: 4,
-    name: "Iconoir | SVG Icons Library",
+    name: "Iconoir: SVG Icons Library",
     url: "https://iconoir.com/",
     description: "The Simple and Definitive hand-crafted SVG Icons Library.",
     tags: ["icons", "svg", "ui"],
@@ -56,16 +56,25 @@ export const resources = [
     url: "https://tablericons.com/",
     description: "800+ Highly customizable & free SVG icons.",
     tags: ["icons", "svg", "ui"],
-    starred: false,
+    starred: true,
   },
   {
     id: 7,
-    name: "RegExr: Learn, Build, & Test RegEx",
-    url: "https://regexr.com/",
+    name: "JavaScript Key Code Event Tool",
+    url: "https://www.toptal.com/developers/keycode",
     description:
-      "RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp).",
-    tags: ["regex", "javascript"],
-    starred: true,
+      "Allows users to press any key and instantly get the JavaScript Key or Key Code KeyboardEvent. ",
+    tags: ["javascript"],
+    starred: false,
+  },
+  {
+    id: 8,
+    name: "Front-End Checklist - Your best Front-End Tool",
+    url: "https://frontendchecklist.io/",
+    description:
+      "Perfect for modern websites and meticulous developers! Follow the rules and deliver the best of your work in a generated report!",
+    tags: ["optimization", "security", "advanced"],
+    starred: false,
   },
   {
     id: 9,
@@ -85,7 +94,7 @@ export const resources = [
   },
   {
     id: 11,
-    name: "CSS Reference | Codrops",
+    name: "Codrops: CSS Reference",
     url: "https://tympanus.net/codrops/css_reference/",
     description:
       "An extensive CSS reference with all the important CSS properties and info to learn CSS from the basics.",
@@ -136,7 +145,7 @@ export const resources = [
   },
   {
     id: 17,
-    name: "Devhints — TL;DR for developer documentation",
+    name: "Devhints: TL;DR for developer documentation",
     url: "https://devhints.io/",
     description: "A ridiculous collection of web development cheatsheets",
     tags: ["cheatsheet", "css", "git", "html", "javascript", "react"],
@@ -144,7 +153,7 @@ export const resources = [
   },
   {
     id: 18,
-    name: "Type Scale - A Visual Calculator",
+    name: "Type Scale: A Visual Calculator",
     url: "https://type-scale.com/",
     description:
       "Preview and choose the right type scale for your project. Experiment with font size, scale and different webfonts.",
@@ -156,7 +165,7 @@ export const resources = [
     name: "DevDocs",
     url: "https://devdocs.io/",
     description:
-      "Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, and many more.",
+      "Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, and many more.",
     tags: [
       "cheatsheet",
       "css",
@@ -166,6 +175,114 @@ export const resources = [
       "javascript",
       "react",
     ],
+    starred: false,
+  },
+  {
+    id: 20,
+    name: "React Documentation (beta)",
+    url: "https://beta.reactjs.org/learn",
+    description:
+      "Learn how to think in React with step-by-step explanations and interactive examples.",
+    tags: ["react", "documentation"],
+    starred: true,
+  },
+  {
+    id: 21,
+    name: "A Complete Guide to Flexbox",
+    url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+    description:
+      "Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element and the child elements.",
+    tags: ["css", "flexbox"],
+    starred: true,
+  },
+  {
+    id: 22,
+    name: "Frontend Mentor: Front-end coding challenges",
+    url: "https://www.frontendmentor.io",
+    description:
+      "Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.",
+    tags: ["css", "html"],
+    starred: false,
+  },
+  {
+    id: 23,
+    name: "Codewars: Achieve Mastery Through Challenge",
+    url: "https://www.codewars.com/",
+    description:
+      "Improve your development skills by training with your peers on code kata that continuously challenge and push your coding practice.",
+    tags: ["javascript"],
+    starred: false,
+  },
+  {
+    id: 24,
+    name: "unDraw: Open source illustrations for any idea",
+    url: "https://undraw.co",
+    description:
+      "The design project with open-source illustrations for any idea you can imagine and create. Create beautiful websites, products and applications with your color, for free.",
+    tags: ["images", "svg"],
+    starred: false,
+  },
+  {
+    id: 25,
+    name: "Unsplash: Beautiful Free Images & Pictures",
+    url: "https://unsplash.com",
+    description:
+      "Beautiful, free images and photos that you can download and use for any project. Better than any royalty free or stock photos.",
+    tags: ["images"],
+    starred: false,
+  },
+  {
+    id: 26,
+    name: "Pexels: Free Stock Photos & Copyright Free Pictures",
+    url: "https://www.pexels.com",
+    description:
+      "Free stock photos & videos you can use everywhere. Browse millions of high-quality royalty free stock images & copyright free pictures. No attribution required.",
+    tags: ["images"],
+    starred: false,
+  },
+  {
+    id: 27,
+    name: "Amp What: Discover Unicode & Character Entities",
+    url: "https://www.amp-what.com",
+    description:
+      "Fast lookup and reference for HTML entities and Unicode characters. Hex or decimal code for punctuation marks, mathematical symbols, icons and more.",
+    tags: ["html"],
+    starred: false,
+  },
+  {
+    id: 28,
+    name: "You Might Not Need Lodash",
+    url: "https://youmightnotneed.com/lodash/",
+    description:
+      "The most comprehensive unit tested collection of lodash methods implemented in vanilla js",
+    tags: ["javascript"],
+    starred: false,
+  },
+  {
+    id: 29,
+    name: "Git Cheatsheet",
+    url: "http://ndpsoftware.com/git-cheatsheet.html#loc=index;",
+    description:
+      "Interactive Git Cheatsheet, categorizing commands based on what they affect.",
+    tags: ["git", "cheatsheet"],
+    starred: false,
+  },
+  {
+    id: 30,
+    name: "RegExr: Learn, Build, & Test RegEx",
+    url: "https://regexr.com/",
+    description:
+      "RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp).",
+    tags: ["regex", "javascript"],
+    starred: true,
+  },
+  {
+    id: 31,
+    name: "Cross Site Scripting Prevention",
+    url: "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html",
+    description:
+      "This cheat sheet provides guidance to prevent XSS vulnerabilities.",
+    tags: ["security", "advanced"],
     starred: false,
   },
   // {
