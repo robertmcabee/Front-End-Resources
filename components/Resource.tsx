@@ -26,10 +26,10 @@ function Resource({
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6 text-green-300"
-          fill="none"
+          fill="currentColor"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          strokeWidth={2}
+          strokeWidth={0.5}
         >
           <path
             strokeLinecap="round"
@@ -47,7 +47,8 @@ function Resource({
             {data.description}
           </p>
         </a>
-        <div className="card-actions">
+        <div className="h-full"></div>
+        <div className="flex flex-wrap">
           {data.tags.map((tag: string) => {
             return (
               <Tag
