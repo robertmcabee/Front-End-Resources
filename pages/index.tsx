@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Head from "next/head";
-import Header from "./Header";
-import TagSelector from "./TagSelector";
-import ResourceContainer from "./ResourceContainer";
+import Header from "../components/Header";
+import TagSelector from "../components/TagSelector";
+import ResourceContainer from "../components/ResourceContainer";
 
 const Home: any = () => {
   const [filter, setFilter] = useState<string[]>([]);

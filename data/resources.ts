@@ -188,12 +188,12 @@ export const resources = [
   },
   {
     id: 21,
-    name: "A Complete Guide to Flexbox",
-    url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+    name: "Learning JavaScript Design Patterns",
+    url: "https://www.patterns.dev/posts/classic-design-patterns/",
     description:
-      "Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element and the child elements.",
-    tags: ["css", "flexbox"],
-    starred: true,
+      "The classic JavaScript design patterns book, updated to ES2015+ syntax.",
+    tags: ["javascript"],
+    starred: false,
   },
   {
     id: 22,
@@ -284,6 +284,15 @@ export const resources = [
       "This cheat sheet provides guidance to prevent XSS vulnerabilities.",
     tags: ["security", "advanced"],
     starred: false,
+  },
+  {
+    id: 32,
+    name: "A Complete Guide to Flexbox",
+    url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+    description:
+      "Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element and the child elements.",
+    tags: ["css", "flexbox"],
+    starred: true,
   },
   // {
   //   id: 000,
