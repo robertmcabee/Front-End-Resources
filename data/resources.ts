@@ -1,3 +1,9 @@
+//TODO:
+//add courses, i.e. TOP, FCC, 100devs, CS50
+//add tutorials / videos?
+//add tailwind resources
+//add more frontend framework resources
+
 export const resources = [
   {
     id: 0,
@@ -20,7 +26,7 @@ export const resources = [
     name: "Regex Cheatsheet - MDN",
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet",
     description:
-      "This page provides an overall cheat sheet of all the capabilities of RegExp syntax by aggregating the content of the articles in the RegExp guide.",
+      "An overall cheat sheet of all the capabilities of RegExp syntax.",
     tags: ["regex", "javascript", "cheatsheet"],
     starred: false,
   },
@@ -69,12 +75,12 @@ export const resources = [
   },
   {
     id: 8,
-    name: "Front-End Checklist - Your best Front-End Tool",
+    name: "Front-End Checklist",
     url: "https://frontendchecklist.io/",
     description:
-      "Perfect for modern websites and meticulous developers! Follow the rules and deliver the best of your work in a generated report!",
-    tags: ["optimization", "security", "advanced"],
-    starred: false,
+      "Perfect for modern websites and meticulous developers! Follow the rules and deliver the best of your work!",
+    tags: ["optimization", "security", "advanced", "seo"],
+    starred: true,
   },
   {
     id: 9,
@@ -86,7 +92,7 @@ export const resources = [
   },
   {
     id: 10,
-    name: "How to design almost any UI element. (Twitter Thread)",
+    name: "How to design almost any UI element.",
     url: "https://twitter.com/i/events/994601867987619840",
     description: "A curated list of 58 articles by @vponamariov.",
     tags: ["ui", "design", "css"],
@@ -132,12 +138,12 @@ export const resources = [
     url: "https://uiverse.io/",
     description:
       "Universe of UI elements to help you stand out. Open-source and free to use, just copy and paste!",
-    tags: ["css", "components", "ui"],
+    tags: ["css", "ui"],
     starred: false,
   },
   {
     id: 16,
-    name: "Neumorphism/Soft UI CSS shadow generator",
+    name: "Neumorphism CSS shadow generator",
     url: "https://neumorphism.io/#f0f0f0",
     description: "Generate Soft-UI CSS code",
     tags: ["css", "design", "ui"],
@@ -145,7 +151,7 @@ export const resources = [
   },
   {
     id: 17,
-    name: "Devhints: TL;DR for developer documentation",
+    name: "Devhints: developer documentation",
     url: "https://devhints.io/",
     description: "A ridiculous collection of web development cheatsheets",
     tags: ["cheatsheet", "css", "git", "html", "javascript", "react"],
@@ -165,7 +171,7 @@ export const resources = [
     name: "DevDocs",
     url: "https://devdocs.io/",
     description:
-      "Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, and many more.",
+      "Fast, offline, and free documentation browser for developers.",
     tags: [
       "cheatsheet",
       "css",
@@ -200,7 +206,7 @@ export const resources = [
     name: "Frontend Mentor: Front-end coding challenges",
     url: "https://www.frontendmentor.io",
     description:
-      "Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.",
+      "Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges.",
     tags: ["css", "html"],
     starred: false,
   },
@@ -242,7 +248,7 @@ export const resources = [
   },
   {
     id: 27,
-    name: "Amp What: Discover Unicode & Character Entities",
+    name: "Amp What: Unicode Reference",
     url: "https://www.amp-what.com",
     description:
       "Fast lookup and reference for HTML entities and Unicode characters. Hex or decimal code for punctuation marks, mathematical symbols, icons and more.",
@@ -290,16 +296,98 @@ export const resources = [
     name: "A Complete Guide to Flexbox",
     url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
     description:
-      "Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element and the child elements.",
+      "Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox.",
     tags: ["css", "flexbox"],
     starred: true,
   },
+
+  {
+    id: 33,
+    name: "A Beginner's Guide to Git and Github",
+    url: "https://www.notion.so/fateen45/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833",
+    description:
+      "Explains almost everything one needs to know, covering all the basic features, commands, and concepts in one place.",
+    tags: ["git"],
+    starred: false,
+  },
+  {
+    id: 34,
+    name: "A Developer's Guide To SEO",
+    url: "https://www.portent.com/blog/seo/developers-seo-guide.htm",
+    description:
+      "Read this guide and you'll never have last minute SEO requests again.",
+    tags: ["optimization", "seo"],
+    starred: false,
+  },
+  {
+    id: 35,
+    name: "cccolor: HEX, RGB & HSL color picker",
+    url: "https://fffuel.co/cccolor/",
+    description:
+      "Simple online color picker for web designers, with color values automagically available as RGB, HSL, or hex Perfect for CSS and HTML.",
+    tags: ["css", "design"],
+    starred: false,
+  },
+  {
+    id: 36,
+    name: "The Modern JavaScript Tutorial",
+    url: "https://javascript.info",
+    description:
+      "How it's done now. From the basics to advanced topics with simple, but detailed explanations.",
+    tags: ["javascript"],
+    starred: true,
+  },
+  {
+    id: 37,
+    name: "MarkSheet: A free tutorial to learn HTML and CSS",
+    url: "https://marksheet.io",
+    description:
+      "MarkSheet is a free tutorial to learn HTML and CSS. It's short (just as long as a 50 page book), simple (for everyone: beginners, designers, developers), and free.",
+    tags: ["html", "css"],
+    starred: false,
+  },
+  {
+    id: 38,
+    name: "Scrimba Free Courses",
+    url: "https://scrimba.com/topic/free",
+    description:
+      "These courses are 100% free. They range across a wide variety of subjects, like HTML, CSS, JavaScript, React, Vue, and much more. Most of them are about an hour in length, but some are longer and more comprehensive.",
+    tags: ["html", "css", "javascript", "react"],
+    starred: false,
+  },
+  {
+    id: 39,
+    name: "How A Screen Reader User Accesses The Web: A Smashing Video",
+    url: "https://www.smashingmagazine.com/2019/02/accessibility-webinar/",
+    description:
+      "Find out about some unexpected properties of HTML elements that not only have a huge impact on accessibility, but also turn out to be pretty good for performance, too.",
+    tags: ["accessibility", "html"],
+    starred: false,
+  },
+  {
+    id: 40,
+    name: "Inclusively Hidden",
+    url: "https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html",
+    description:
+      "There are various ways to hide content in web interfaces, but are you aware of the different effects they have on the accessibility of that content?",
+    tags: ["accessibility", "html", "css"],
+    starred: false,
+  },
+  {
+    id: 41,
+    name: "Inclusive Components",
+    url: "https://inclusive-components.design",
+    description:
+      "A blog trying to be a pattern library. All about designing inclusive web interfaces, piece by piece.",
+    tags: ["accessibility", "html", "css"],
+    starred: false,
+  },
   // {
   //   id: 000,
-  //   name: "IIIIIIIIIIIIIII",
-  //   url: "IIIIIIIIIIIIIIII",
-  //   description: "IIIIIIII",
-  //   tags: ["IIIIIIIIIIIIII",],
+  //   name: "IIIIIII",
+  //   url: "IIIIII",
+  //   description: "IIIIII",
+  //   tags: ["IIIIIIII",],
   //   starred: false,
   // },
 ];
