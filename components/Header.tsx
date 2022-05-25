@@ -1,15 +1,22 @@
 function Header() {
   return (
-    <div className="hero bg-base-200 py-12">
+    <header className="hero bg-base-200 pt-12 pb-4">
       <div className="hero-content text-center">
-        <div className="max-w-md">
-          <h1 className=" dark:text-white text-5xl font-bold">
-            Front-End Resources
-          </h1>
-          <p className="py-6">
-            A curated collection of resources for front-end developers, covering
-            everything from design to deployment.
-          </p>
+        <div className="max-w-xl ">
+          <div className="mockup-code text-left mb-10">
+            <p className="pl-4 opacity-40 font-mono">&lt;h1&gt;</p>
+            <h1 className="text-center dark:text-white text-5xl font-bold">
+              Front-End <br /> Resources
+            </h1>
+            <p className="pl-4 opacity-40 font-mono">&lt;/h1&gt;</p>
+            <p className="pl-4 opacity-40 font-mono">&lt;p&gt;</p>
+            <p className="sm:px-36 text-center">
+              A curated collection of free resources from accross the web for
+              front end developers, covering everything from design to
+              deployment.
+            </p>
+            <p className="pl-4 opacity-40 font-mono">&lt;/p&gt;</p>
+          </div>
           <div>
             <a
               target="_blank"
@@ -85,7 +92,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 

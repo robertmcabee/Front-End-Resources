@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['"IBM Plex Sans Thai Looped"', "sans-serif"],
+      mono: ['"SF Mono"', "monospace"],
     },
   },
   plugins: [require("daisyui")],
