@@ -4,7 +4,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ['"IBM Plex Sans Thai Looped"', "sans-serif"],
+    },
   },
   plugins: [require("daisyui")],
 };
