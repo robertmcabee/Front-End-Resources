@@ -10,7 +10,7 @@ function Header() {
             </h1>
             <p className="pl-4 opacity-40 font-mono">&lt;/h1&gt;</p>
             <p className="pl-4 opacity-40 font-mono">&lt;p&gt;</p>
-            <p className="sm:px-36 text-center">
+            <p className="px-4 sm:px-36 text-center">
               A curated collection of free resources from across the web for
               front end developers, covering everything from design to
               deployment.
