@@ -9,7 +9,7 @@ function ResourceContainer({
   toggleFilter: (tag: string) => void;
 }): any {
   return (
-    <main className="px-4 pb-10 grid grid-cols-1 xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 justify-center">
+    <main className="px-4 pb-10 grid grid-cols-1 xl:grid-cols-4 3xl:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-4 justify-center">
       {resources.map((resource) => {
         //filter out resources by tags
         let render = true;

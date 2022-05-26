@@ -9,6 +9,9 @@ module.exports = {
       mono: ['"SF Mono"', "monospace"],
     },
     extend: {
+      screens: {
+        "3xl": "1800px",
+      },
       animation: {
         fadein: "fadein 500ms ease-in-out",
       },
