@@ -6,10 +6,10 @@ function TagSelector({
   filter: string[];
   toggleFilter: (tag: string) => void;
 }): any {
-  const tagList = [
+  const mainTags = ["resource", "reference"];
+  const otherTags = [
     "accessibility",
     "advanced",
-    "cheatsheet",
     "css",
     "design",
     "documentation",
@@ -17,6 +17,7 @@ function TagSelector({
     "git",
     "html",
     "icons",
+    "images",
     "javascript",
     "optimization",
     "react",
@@ -27,9 +28,26 @@ function TagSelector({
     "svg",
     "ui",
   ];
-  const tagDisplay = tagList.sort().map((tag: string) => {
+  const upperTags = mainTags.sort().map((tag: string) => {
     return (
-      <Tag tag={tag} key={tag} filter={filter} toggleFilter={toggleFilter} />
+      <Tag
+        tag={tag}
+        emphasis={true}
+        key={tag}
+        filter={filter}
+        toggleFilter={toggleFilter}
+      />
+    );
+  });
+  const lowerTags = otherTags.sort().map((tag: string) => {
+    return (
+      <Tag
+        tag={tag}
+        emphasis={false}
+        key={tag}
+        filter={filter}
+        toggleFilter={toggleFilter}
+      />
     );
   });
 
@@ -40,7 +58,8 @@ function TagSelector({
     >
       <div className="max-w-xl">
         <p className="pb-2">Select a filter:</p>
-        {tagDisplay}
+        <div className="pb-2">{upperTags}</div>
+        {lowerTags}
       </div>
     </div>
   );

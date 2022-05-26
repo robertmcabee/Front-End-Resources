@@ -53,6 +53,7 @@ function Resource({
             return (
               <Tag
                 tag={tag}
+                emphasis={false}
                 key={tag}
                 filter={filter}
                 toggleFilter={toggleFilter}
