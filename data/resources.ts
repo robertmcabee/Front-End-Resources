@@ -10,7 +10,7 @@ export const resources = [
     name: "htmlreference.io",
     url: "https://htmlreference.io/",
     description: "A free guide to all HTML elements and attributes.",
-    tags: ["html"],
+    tags: ["html", "reference"],
     starred: false,
   },
   {
@@ -18,7 +18,7 @@ export const resources = [
     name: "CSS-Tricks",
     url: "https://css-tricks.com/",
     description: "CSS-Tricks is a website about websites.",
-    tags: ["css"],
+    tags: ["css", "reference"],
     starred: true,
   },
   {
@@ -27,7 +27,7 @@ export const resources = [
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet",
     description:
       "An overall cheat sheet of all the capabilities of RegExp syntax.",
-    tags: ["regex", "javascript", "cheatsheet"],
+    tags: ["regex", "javascript", "reference"],
     starred: false,
   },
   {
@@ -36,7 +36,7 @@ export const resources = [
     url: "https://boxicons.com/",
     description:
       "Boxicons is a free collection of carefully crafted open source icons. Designed on a 24px grid with the material guidelines",
-    tags: ["icons", "svg", "ui"],
+    tags: ["icons", "svg", "ui", "resource"],
     starred: false,
   },
   {
@@ -44,7 +44,7 @@ export const resources = [
     name: "Iconoir: SVG Icons Library",
     url: "https://iconoir.com/",
     description: "The Simple and Definitive hand-crafted SVG Icons Library.",
-    tags: ["icons", "svg", "ui"],
+    tags: ["icons", "svg", "ui", "resource"],
     starred: false,
   },
   {
@@ -53,7 +53,7 @@ export const resources = [
     url: "https://heroicons.com/",
     description:
       "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.",
-    tags: ["icons", "svg", "ui"],
+    tags: ["icons", "svg", "ui", "resource"],
     starred: false,
   },
   {
@@ -61,7 +61,7 @@ export const resources = [
     name: "Tabler Icons",
     url: "https://tablericons.com/",
     description: "800+ Highly customizable & free SVG icons.",
-    tags: ["icons", "svg", "ui"],
+    tags: ["icons", "svg", "ui", "resource"],
     starred: true,
   },
   {
@@ -70,7 +70,7 @@ export const resources = [
     url: "https://www.toptal.com/developers/keycode",
     description:
       "Allows users to press any key and instantly get the JavaScript Key or Key Code KeyboardEvent. ",
-    tags: ["javascript"],
+    tags: ["javascript", "reference"],
     starred: false,
   },
   {
@@ -79,7 +79,7 @@ export const resources = [
     url: "https://frontendchecklist.io/",
     description:
       "Perfect for modern websites and meticulous developers! Follow the rules and deliver the best of your work!",
-    tags: ["optimization", "security", "advanced", "seo"],
+    tags: ["optimization", "security", "advanced", "seo", "reference"],
     starred: true,
   },
   {
@@ -87,7 +87,7 @@ export const resources = [
     name: "Design Tips (Twitter Thread)",
     url: "https://twitter.com/i/events/994601867987619840",
     description: "A collection of design tips and tricks by @steveschoger.",
-    tags: ["ui", "design", "css"],
+    tags: ["ui", "design", "css", "reference"],
     starred: false,
   },
   {
@@ -95,7 +95,7 @@ export const resources = [
     name: "How to design almost any UI element.",
     url: "https://twitter.com/i/events/994601867987619840",
     description: "A curated list of 58 articles by @vponamariov.",
-    tags: ["ui", "design", "css"],
+    tags: ["ui", "design", "css", "reference"],
     starred: false,
   },
   {
@@ -104,7 +104,7 @@ export const resources = [
     url: "https://tympanus.net/codrops/css_reference/",
     description:
       "An extensive CSS reference with all the important CSS properties and info to learn CSS from the basics.",
-    tags: ["css"],
+    tags: ["css", "reference"],
     starred: false,
   },
   {
@@ -113,7 +113,7 @@ export const resources = [
     url: "https://codeguide.co/#css",
     description:
       "Standards for developing consistent, flexible, and sustainable HTML and CSS",
-    tags: ["css", "html", "style-guide"],
+    tags: ["css", "html", "style-guide", "reference"],
     starred: false,
   },
   {
@@ -121,7 +121,7 @@ export const resources = [
     name: "Airbnb JavaScript Style Guide",
     url: "https://github.com/airbnb/javascript",
     description: "A mostly reasonable approach to JavaScript",
-    tags: ["advanced", "javascript", "style-guide"],
+    tags: ["advanced", "javascript", "style-guide", "reference"],
     starred: false,
   },
   {
@@ -129,7 +129,7 @@ export const resources = [
     name: "Airbnb React/JSX Style Guide",
     url: "https://github.com/airbnb/javascript/tree/master/react",
     description: "A mostly reasonable approach to React and JSX",
-    tags: ["advanced", "react", "style-guide"],
+    tags: ["advanced", "react", "style-guide", "reference"],
     starred: false,
   },
   {
@@ -138,7 +138,7 @@ export const resources = [
     url: "https://uiverse.io/",
     description:
       "Universe of UI elements to help you stand out. Open-source and free to use, just copy and paste!",
-    tags: ["css", "ui"],
+    tags: ["css", "ui", "resource"],
     starred: false,
   },
   {
@@ -146,7 +146,7 @@ export const resources = [
     name: "Neumorphism CSS shadow generator",
     url: "https://neumorphism.io/#f0f0f0",
     description: "Generate Soft-UI CSS code",
-    tags: ["css", "design", "ui"],
+    tags: ["css", "design", "ui", "resource"],
     starred: false,
   },
   {
@@ -154,17 +154,17 @@ export const resources = [
     name: "Devhints: developer documentation",
     url: "https://devhints.io/",
     description: "A ridiculous collection of web development cheatsheets",
-    tags: ["cheatsheet", "css", "git", "html", "javascript", "react"],
+    tags: ["reference", "css", "git", "html", "javascript", "react"],
     starred: false,
   },
   {
     id: 18,
-    name: "Type Scale: A Visual Calculator",
-    url: "https://type-scale.com/",
+    name: "A11y Coffee",
+    url: "https://a11y.coffee/",
     description:
-      "Preview and choose the right type scale for your project. Experiment with font size, scale and different webfonts.",
-    tags: ["ui", "design", "css"],
-    starred: false,
+      "The introduction on web accessibility that I want to give every single web developer.",
+    tags: ["accessibility", "reference"],
+    starred: true,
   },
   {
     id: 19,
@@ -173,7 +173,7 @@ export const resources = [
     description:
       "Fast, offline, and free documentation browser for developers.",
     tags: [
-      "cheatsheet",
+      "reference",
       "css",
       "documentation",
       "git",
@@ -189,7 +189,7 @@ export const resources = [
     url: "https://beta.reactjs.org/learn",
     description:
       "Learn how to think in React with step-by-step explanations and interactive examples.",
-    tags: ["react", "documentation"],
+    tags: ["react", "documentation", "reference"],
     starred: true,
   },
   {
@@ -198,7 +198,7 @@ export const resources = [
     url: "https://www.patterns.dev/posts/classic-design-patterns/",
     description:
       "The classic JavaScript design patterns book, updated to ES2015+ syntax.",
-    tags: ["javascript"],
+    tags: ["javascript", "reference"],
     starred: false,
   },
   {
@@ -207,7 +207,7 @@ export const resources = [
     url: "https://www.frontendmentor.io",
     description:
       "Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges.",
-    tags: ["css", "html"],
+    tags: ["css", "html", "resource"],
     starred: false,
   },
   {
@@ -216,7 +216,7 @@ export const resources = [
     url: "https://www.codewars.com/",
     description:
       "Improve your development skills by training with your peers on code kata that continuously challenge and push your coding practice.",
-    tags: ["javascript"],
+    tags: ["javascript", "resource"],
     starred: false,
   },
   {
@@ -225,7 +225,7 @@ export const resources = [
     url: "https://undraw.co",
     description:
       "The design project with open-source illustrations for any idea you can imagine and create. Create beautiful websites, products and applications with your color, for free.",
-    tags: ["images", "svg"],
+    tags: ["images", "svg", "resource"],
     starred: false,
   },
   {
@@ -234,7 +234,7 @@ export const resources = [
     url: "https://unsplash.com",
     description:
       "Beautiful, free images and photos that you can download and use for any project. Better than any royalty free or stock photos.",
-    tags: ["images"],
+    tags: ["images", "resource"],
     starred: false,
   },
   {
@@ -243,7 +243,7 @@ export const resources = [
     url: "https://www.pexels.com",
     description:
       "Free stock photos & videos you can use everywhere. Browse millions of high-quality royalty free stock images & copyright free pictures. No attribution required.",
-    tags: ["images"],
+    tags: ["images", "resource"],
     starred: false,
   },
   {
@@ -252,7 +252,7 @@ export const resources = [
     url: "https://www.amp-what.com",
     description:
       "Fast lookup and reference for HTML entities and Unicode characters. Hex or decimal code for punctuation marks, mathematical symbols, icons and more.",
-    tags: ["html"],
+    tags: ["html", "reference"],
     starred: false,
   },
   {
@@ -261,7 +261,7 @@ export const resources = [
     url: "https://youmightnotneed.com/lodash/",
     description:
       "The most comprehensive unit tested collection of lodash methods implemented in vanilla js",
-    tags: ["javascript"],
+    tags: ["javascript", "reference"],
     starred: false,
   },
   {
@@ -270,7 +270,7 @@ export const resources = [
     url: "http://ndpsoftware.com/git-cheatsheet.html#loc=index;",
     description:
       "Interactive Git Cheatsheet, categorizing commands based on what they affect.",
-    tags: ["git", "cheatsheet"],
+    tags: ["git", "reference"],
     starred: false,
   },
   {
@@ -279,7 +279,7 @@ export const resources = [
     url: "https://regexr.com/",
     description:
       "RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp).",
-    tags: ["regex", "javascript"],
+    tags: ["regex", "javascript", "reference"],
     starred: true,
   },
   {
@@ -288,7 +288,7 @@ export const resources = [
     url: "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html",
     description:
       "This cheat sheet provides guidance to prevent XSS vulnerabilities.",
-    tags: ["security", "advanced"],
+    tags: ["security", "advanced", "reference"],
     starred: false,
   },
   {
@@ -297,7 +297,7 @@ export const resources = [
     url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
     description:
       "Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox.",
-    tags: ["css", "flexbox"],
+    tags: ["css", "flexbox", "reference"],
     starred: true,
   },
 
@@ -307,7 +307,7 @@ export const resources = [
     url: "https://www.notion.so/fateen45/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833",
     description:
       "Explains almost everything one needs to know, covering all the basic features, commands, and concepts in one place.",
-    tags: ["git"],
+    tags: ["git", "reference"],
     starred: false,
   },
   {
@@ -316,7 +316,7 @@ export const resources = [
     url: "https://www.portent.com/blog/seo/developers-seo-guide.htm",
     description:
       "Read this guide and you'll never have last minute SEO requests again.",
-    tags: ["optimization", "seo"],
+    tags: ["optimization", "seo", "reference"],
     starred: false,
   },
   {
@@ -325,7 +325,7 @@ export const resources = [
     url: "https://fffuel.co/cccolor/",
     description:
       "Simple online color picker for web designers, with color values automagically available as RGB, HSL, or hex Perfect for CSS and HTML.",
-    tags: ["css", "design"],
+    tags: ["css", "design", "resource"],
     starred: false,
   },
   {
@@ -334,7 +334,7 @@ export const resources = [
     url: "https://javascript.info",
     description:
       "How it's done now. From the basics to advanced topics with simple, but detailed explanations.",
-    tags: ["javascript"],
+    tags: ["javascript", "reference"],
     starred: true,
   },
   {
@@ -343,7 +343,7 @@ export const resources = [
     url: "https://marksheet.io",
     description:
       "MarkSheet is a free tutorial to learn HTML and CSS. It's short (just as long as a 50 page book), simple (for everyone: beginners, designers, developers), and free.",
-    tags: ["html", "css"],
+    tags: ["html", "css", "reference"],
     starred: false,
   },
   {
@@ -351,8 +351,8 @@ export const resources = [
     name: "Scrimba Free Courses",
     url: "https://scrimba.com/topic/free",
     description:
-      "These courses are 100% free. They range across a wide variety of subjects, like HTML, CSS, JavaScript, React, Vue, and much more. Most of them are about an hour in length, but some are longer and more comprehensive.",
-    tags: ["html", "css", "javascript", "react"],
+      "These courses are 100% free. They range across a wide variety of subjects, like HTML, CSS, JavaScript, React, Vue, and much more.",
+    tags: ["html", "css", "javascript", "react", "reference"],
     starred: false,
   },
   {
@@ -361,7 +361,7 @@ export const resources = [
     url: "https://www.smashingmagazine.com/2019/02/accessibility-webinar/",
     description:
       "Find out about some unexpected properties of HTML elements that not only have a huge impact on accessibility, but also turn out to be pretty good for performance, too.",
-    tags: ["accessibility", "html"],
+    tags: ["accessibility", "html", "reference"],
     starred: false,
   },
   {
@@ -370,7 +370,7 @@ export const resources = [
     url: "https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html",
     description:
       "There are various ways to hide content in web interfaces, but are you aware of the different effects they have on the accessibility of that content?",
-    tags: ["accessibility", "html", "css"],
+    tags: ["accessibility", "html", "css", "reference"],
     starred: false,
   },
   {
@@ -379,7 +379,76 @@ export const resources = [
     url: "https://inclusive-components.design",
     description:
       "A blog trying to be a pattern library. All about designing inclusive web interfaces, piece by piece.",
-    tags: ["accessibility", "html", "css"],
+    tags: ["accessibility", "html", "css", "reference"],
+    starred: false,
+  },
+  {
+    id: 42,
+    name: "CSS Gradient Generator",
+    url: "https://www.joshwcomeau.com/gradient-generator/",
+    description: "Beautiful, lush gradients.",
+    tags: ["css", "design", "resource"],
+    starred: false,
+  },
+  {
+    id: 43,
+    name: "HTML5 UP",
+    url: "https://html5up.net/",
+    description:
+      "Responsive HTML5 and CSS3 site templates designed by @ajlkn and released under the Creative Commons license.",
+    tags: ["html", "resource"],
+    starred: false,
+  },
+  {
+    id: 44,
+    name: "TypeScript Tutorial for JS Programmers Who Know How to Build a Todo App",
+    url: "https://ts.chibicode.com/todo/",
+    description: "Learn TypeScript by Building a Todo App",
+    tags: ["typescript", "reference"],
+    starred: true,
+  },
+  {
+    id: 45,
+    name: "React+TypeScript Cheatsheets",
+    url: "https://github.com/typescript-cheatsheets/react",
+    description:
+      "Cheatsheets for experienced React developers getting started with TypeScript",
+    tags: ["react", "typescript", "reference"],
+    starred: false,
+  },
+  {
+    id: 46,
+    name: "RegexOne",
+    url: "https://regexone.com",
+    description:
+      "RegexOne provides a set of interactive lessons and exercises to help you learn regular expressions",
+    tags: ["regex", "reference"],
+    starred: false,
+  },
+  {
+    id: 47,
+    name: "Type Scale: A Visual Calculator",
+    url: "https://type-scale.com/",
+    description:
+      "Preview and choose the right type scale for your project. Experiment with font size, scale and different webfonts.",
+    tags: ["ui", "design", "css", "resource"],
+    starred: false,
+  },
+  {
+    id: 48,
+    name: "Material Symbols",
+    url: "https://fonts.google.com/icons",
+    description:
+      "Material Symbols are our newest icons consolidating over 2,500 glyphs in a single font file with a wide range of design variants.",
+    tags: ["icons", "svg", "ui", "resource"],
+    starred: false,
+  },
+  {
+    id: 49,
+    name: "1 LOC",
+    url: "https://1loc.dev",
+    description: "Favorite JavaScript utilities in a single line of code",
+    tags: ["javascript", "resource"],
     starred: false,
   },
   // {
