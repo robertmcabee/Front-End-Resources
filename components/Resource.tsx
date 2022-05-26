@@ -18,7 +18,7 @@ function Resource({
   toggleFilter: (tag: string) => void;
 }) {
   return (
-    <div className="card bg-base-300 shadow-xl">
+    <div className="card bg-base-300 shadow-xl animate-fadein">
       <div
         className="absolute top-4 right-4"
         style={data.starred ? { display: "relative" } : { display: "none" }}

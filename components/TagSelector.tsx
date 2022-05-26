@@ -34,7 +34,10 @@ function TagSelector({
   });
 
   return (
-    <div id="tags" className="w-full flex justify-center text-center py-8">
+    <div
+      id="tags"
+      className="animate-fadein w-full flex justify-center text-center py-8"
+    >
       <div className="max-w-xl">
         <p className="pb-2">Select a filter:</p>
         {tagDisplay}

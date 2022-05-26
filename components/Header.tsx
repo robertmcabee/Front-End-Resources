@@ -2,8 +2,8 @@ function Header() {
   return (
     <header className="hero bg-base-200 pt-12 pb-4">
       <div className="hero-content text-center">
-        <div className="max-w-xl ">
-          <div className="mockup-code text-left mb-10">
+        <div className="max-w-xl">
+          <div className="animate-fadein mockup-code text-left mb-10">
             <p className="pl-4 opacity-40 font-mono">&lt;h1&gt;</p>
             <h1 className="text-center dark:text-white text-5xl font-bold">
               Front-End <br /> Resources
@@ -17,7 +17,7 @@ function Header() {
             </p>
             <p className="pl-4 opacity-40 font-mono">&lt;/p&gt;</p>
           </div>
-          <div>
+          <div className="animate-fadein">
             <a
               target="_blank"
               href="https://twitter.com/intent/tweet?text=Check%20out%20these%20resources%20for%20front-end%20developers&url=https%3A%2F%2Fwebdevhelp.netlify.app"
