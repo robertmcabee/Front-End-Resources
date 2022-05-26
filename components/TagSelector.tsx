@@ -26,6 +26,7 @@ function TagSelector({
     "seo",
     "style-guide",
     "svg",
+    "typescript",
     "ui",
   ];
   const upperTags = mainTags.sort().map((tag: string) => {

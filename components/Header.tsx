@@ -12,7 +12,7 @@ function Header() {
             <p className="pl-4 opacity-40 font-mono">&lt;p&gt;</p>
             <p className="px-4 sm:px-36 text-center">
               A curated collection of free resources from across the web for
-              front end developers, covering everything from design to
+              front-end developers, covering everything from design to
               deployment.
             </p>
             <p className="pl-4 opacity-40 font-mono">&lt;/p&gt;</p>
@@ -20,7 +20,7 @@ function Header() {
           <div className="animate-fadein">
             <a
               target="_blank"
-              href="https://twitter.com/intent/tweet?text=Check%20out%20these%20resources%20for%20front-end%20developers&url=https%3A%2F%2Fwebdevhelp.netlify.app"
+              href="https://twitter.com/intent/tweet?text=Check%20out%20this%20collection%20of%20resources%20for%20front-end%20developers:&url=https%3A%2F%2Fwebdevhelp.netlify.app"
               rel="noreferrer"
             >
               <button className="btn rounded-full mx-2 mb-4">
