@@ -18,18 +18,9 @@ const Home: any = () => {
 
   return (
     <>
-      <div className="min-h-[97vh]">
+      <div className="min-h-[90vh]">
         <Head>
           <title>Front End Resources</title>
-          <meta
-            name="description"
-            content="A curated collection of resources for front end developers, covering everything from design to deployment."
-          />
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
-          <link rel="icon" type="image/png" href="/favicon.png" />
         </Head>
         <Header />
         <TagSelector filter={filter} toggleFilter={toggleFilter} />
