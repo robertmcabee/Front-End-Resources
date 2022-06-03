@@ -8,7 +8,6 @@ export default function Document() {
           name="description"
           content="A curated collection of resources for front end developers, covering everything from design to deployment."
         />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;700&display=swap"
