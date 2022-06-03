@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card.unstarred {
+  background: #e5e6e6;
+  color: #3d4451;
+}
+
+@media (prefers-color-scheme: dark) {
+  .card.unstarred {
+    background: #20252e;
+  }
+  .card p {
+    color: #fff;
+  }
+  .card.unstarred p {
+    color: #a6adbb;
+  }
+  .card h2 {
+    color: #fff;
+  }
+  .card.unstarred h2 {
+    color: #fff;
+  }
+}
