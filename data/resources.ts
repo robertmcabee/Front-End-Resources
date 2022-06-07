@@ -451,6 +451,41 @@ export const resources = [
     tags: ["javascript", "resource"],
     starred: false,
   },
+  {
+    id: 50,
+    name: "Regular Expressions 101",
+    url: "https://regex101.com/",
+    description:
+      "Free multilingual regular expression debugger with real time explanation, error detection and highlighting.",
+    tags: ["regex", "reference"],
+    starred: false,
+  },
+  {
+    id: 51,
+    name: "JavaScript Questions",
+    url: "https://github.com/lydiahallie/javascript-questions",
+    description:
+      "A long list of (advanced) JavaScript questions, and their explanations.",
+    tags: ["javascript", "advanced", "reference"],
+    starred: false,
+  },
+  {
+    id: 52,
+    name: "Glassmorphism CSS Generator",
+    url: "https://ui.glass/generator/",
+    description:
+      "Get started with this free CSS generator based on the glassmorphism design specifications to quickly design and customize the style properties.",
+    tags: ["css", "resource"],
+    starred: false,
+  },
+  {
+    id: 53,
+    name: "Shadow Palette Generator",
+    url: "https://www.joshwcomeau.com/shadow-palette/",
+    description: "Create a set of lush, realistic CSS shadows.",
+    tags: ["css", "resource"],
+    starred: false,
+  },
   // {
   //   id: 000,
   //   name: "IIIIIII",
