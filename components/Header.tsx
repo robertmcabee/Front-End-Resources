@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="hero bg-base-200 pt-12 pb-4">
+    <header className="hero pt-12 pb-4 bg-gradient-to-b from-base-100 to-base-300">
       <div className="hero-content text-center">
         <div className="max-w-xl">
           <div className="animate-fadein mockup-code text-left mb-10">
