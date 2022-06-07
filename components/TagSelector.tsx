@@ -10,10 +10,10 @@ function TagSelector({
   const otherTags = [
     "accessibility",
     "advanced",
+    "beginner-friendly",
     "css",
     "design",
     "documentation",
-    "flexbox",
     "git",
     "html",
     "icons",
@@ -55,9 +55,9 @@ function TagSelector({
   return (
     <div
       id="tags"
-      className="animate-fadein w-full flex justify-center text-center py-8"
+      className="animate-fadein bg-base-100 w-full flex justify-center text-center py-8"
     >
-      <div className="max-w-xl">
+      <div className="max-w-2xl">
         <p className="pb-2">Select a filter:</p>
         <div className="pb-2">{upperTags}</div>
         {lowerTags}

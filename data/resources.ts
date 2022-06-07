@@ -7,10 +7,19 @@
 export const resources = [
   {
     id: 0,
-    name: "htmlreference.io",
-    url: "https://htmlreference.io/",
-    description: "A free guide to all HTML elements and attributes.",
-    tags: ["html", "reference"],
+    name: "DevDocs",
+    url: "https://devdocs.io/",
+    description:
+      "Fast, offline, and free documentation browser for developers.",
+    tags: [
+      "reference",
+      "css",
+      "documentation",
+      "git",
+      "html",
+      "javascript",
+      "react",
+    ],
     starred: false,
   },
   {
@@ -19,7 +28,7 @@ export const resources = [
     url: "https://css-tricks.com/",
     description: "CSS-Tricks is a website about websites.",
     tags: ["css", "reference"],
-    starred: true,
+    starred: false,
   },
   {
     id: 2,
@@ -32,18 +41,18 @@ export const resources = [
   },
   {
     id: 3,
+    name: "Shadow Palette Generator",
+    url: "https://www.joshwcomeau.com/shadow-palette/",
+    description: "Create a set of lush, realistic CSS shadows.",
+    tags: ["css", "resource"],
+    starred: true,
+  },
+  {
+    id: 4,
     name: "Boxicons: Premium web friendly icons for free",
     url: "https://boxicons.com/",
     description:
       "Boxicons is a free collection of carefully crafted open source icons. Designed on a 24px grid with the material guidelines",
-    tags: ["icons", "svg", "ui", "resource"],
-    starred: false,
-  },
-  {
-    id: 4,
-    name: "Iconoir: SVG Icons Library",
-    url: "https://iconoir.com/",
-    description: "The Simple and Definitive hand-crafted SVG Icons Library.",
     tags: ["icons", "svg", "ui", "resource"],
     starred: false,
   },
@@ -75,28 +84,27 @@ export const resources = [
   },
   {
     id: 8,
-    name: "Front-End Checklist",
-    url: "https://frontendchecklist.io/",
-    description:
-      "Perfect for modern websites and meticulous developers! Follow the rules and deliver the best of your work!",
-    tags: ["optimization", "security", "advanced", "seo", "reference"],
-    starred: true,
-  },
-  {
-    id: 9,
-    name: "Design Tips (Twitter Thread)",
-    url: "https://twitter.com/i/events/994601867987619840",
-    description: "A collection of design tips and tricks by @steveschoger.",
-    tags: ["ui", "design", "css", "reference"],
+    name: "CSS Gradient Generator",
+    url: "https://www.joshwcomeau.com/gradient-generator/",
+    description: "Beautiful, lush gradients.",
+    tags: ["css", "design", "resource"],
     starred: false,
   },
   {
-    id: 10,
+    id: 9,
     name: "How to design almost any UI element.",
     url: "https://twitter.com/i/events/994601867987619840",
     description: "A curated list of 58 articles by @vponamariov.",
     tags: ["ui", "design", "css", "reference"],
     starred: false,
+  },
+  {
+    id: 10,
+    name: "Design Tips",
+    url: "https://twitter.com/i/events/994601867987619840",
+    description: "A collection of design tips and tricks by @steveschoger.",
+    tags: ["ui", "design", "css", "reference"],
+    starred: true,
   },
   {
     id: 11,
@@ -168,19 +176,10 @@ export const resources = [
   },
   {
     id: 19,
-    name: "DevDocs",
-    url: "https://devdocs.io/",
-    description:
-      "Fast, offline, and free documentation browser for developers.",
-    tags: [
-      "reference",
-      "css",
-      "documentation",
-      "git",
-      "html",
-      "javascript",
-      "react",
-    ],
+    name: "htmlreference.io",
+    url: "https://htmlreference.io/",
+    description: "A free guide to all HTML elements and attributes.",
+    tags: ["html", "reference"],
     starred: false,
   },
   {
@@ -189,7 +188,7 @@ export const resources = [
     url: "https://beta.reactjs.org/learn",
     description:
       "Learn how to think in React with step-by-step explanations and interactive examples.",
-    tags: ["react", "documentation", "reference"],
+    tags: ["react", "documentation", "reference", "beginner-friendly"],
     starred: true,
   },
   {
@@ -207,7 +206,7 @@ export const resources = [
     url: "https://www.frontendmentor.io",
     description:
       "Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges.",
-    tags: ["css", "html", "resource"],
+    tags: ["css", "html", "resource", "beginner-friendly"],
     starred: false,
   },
   {
@@ -270,7 +269,7 @@ export const resources = [
     url: "http://ndpsoftware.com/git-cheatsheet.html#loc=index;",
     description:
       "Interactive Git Cheatsheet, categorizing commands based on what they affect.",
-    tags: ["git", "reference"],
+    tags: ["git", "reference", "beginner-friendly"],
     starred: false,
   },
   {
@@ -297,7 +296,7 @@ export const resources = [
     url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
     description:
       "Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox.",
-    tags: ["css", "flexbox", "reference"],
+    tags: ["css", "reference", "beginner-friendly"],
     starred: true,
   },
 
@@ -307,7 +306,7 @@ export const resources = [
     url: "https://www.notion.so/fateen45/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833",
     description:
       "Explains almost everything one needs to know, covering all the basic features, commands, and concepts in one place.",
-    tags: ["git", "reference"],
+    tags: ["git", "reference", "beginner-friendly"],
     starred: false,
   },
   {
@@ -334,7 +333,7 @@ export const resources = [
     url: "https://javascript.info",
     description:
       "How it's done now. From the basics to advanced topics with simple, but detailed explanations.",
-    tags: ["javascript", "reference"],
+    tags: ["javascript", "reference", "beginner-friendly"],
     starred: true,
   },
   {
@@ -342,8 +341,8 @@ export const resources = [
     name: "MarkSheet: A free tutorial to learn HTML and CSS",
     url: "https://marksheet.io",
     description:
-      "MarkSheet is a free tutorial to learn HTML and CSS. It's short (just as long as a 50 page book), simple (for everyone: beginners, designers, developers), and free.",
-    tags: ["html", "css", "reference"],
+      "MarkSheet is a free tutorial to learn HTML and CSS. It's short, simple, and free.",
+    tags: ["html", "css", "reference", "beginner-friendly"],
     starred: false,
   },
   {
@@ -352,7 +351,14 @@ export const resources = [
     url: "https://scrimba.com/topic/free",
     description:
       "These courses are 100% free. They range across a wide variety of subjects, like HTML, CSS, JavaScript, React, Vue, and much more.",
-    tags: ["html", "css", "javascript", "react", "reference"],
+    tags: [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "reference",
+      "beginner-friendly",
+    ],
     starred: false,
   },
   {
@@ -384,11 +390,12 @@ export const resources = [
   },
   {
     id: 42,
-    name: "CSS Gradient Generator",
-    url: "https://www.joshwcomeau.com/gradient-generator/",
-    description: "Beautiful, lush gradients.",
-    tags: ["css", "design", "resource"],
-    starred: false,
+    name: "Front-End Checklist",
+    url: "https://frontendchecklist.io/",
+    description:
+      "Perfect for modern websites and meticulous developers! Follow the rules and deliver the best of your work!",
+    tags: ["optimization", "security", "advanced", "seo", "reference"],
+    starred: true,
   },
   {
     id: 43,
@@ -404,7 +411,7 @@ export const resources = [
     name: "TypeScript Tutorial for JS Programmers Who Know How to Build a Todo App",
     url: "https://ts.chibicode.com/todo/",
     description: "Learn TypeScript by Building a Todo App",
-    tags: ["typescript", "reference"],
+    tags: ["typescript", "reference", "beginner-friendly"],
     starred: true,
   },
   {
@@ -422,7 +429,7 @@ export const resources = [
     url: "https://regexone.com",
     description:
       "RegexOne provides a set of interactive lessons and exercises to help you learn regular expressions",
-    tags: ["regex", "reference"],
+    tags: ["regex", "reference", "beginner-friendly"],
     starred: false,
   },
   {
@@ -480,10 +487,10 @@ export const resources = [
   },
   {
     id: 53,
-    name: "Shadow Palette Generator",
-    url: "https://www.joshwcomeau.com/shadow-palette/",
-    description: "Create a set of lush, realistic CSS shadows.",
-    tags: ["css", "resource"],
+    name: "Iconoir: SVG Icons Library",
+    url: "https://iconoir.com/",
+    description: "The Simple and Definitive hand-crafted SVG Icons Library.",
+    tags: ["icons", "svg", "ui", "resource"],
     starred: false,
   },
   // {
