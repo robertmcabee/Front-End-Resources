@@ -29,7 +29,7 @@ function Resource({
     <div className={cardClasses}>
       <div
         style={data.starred ? { position: "absolute" } : { display: "none" }}
-        className=" z-20 bg-gradient-to-b from-base-300 to-transparent opacity-80 h-full w-full group-hover:translate-y-[-100%] translate-x-[-0.5rem] transition-all duration-[500ms]"
+        className=" z-20 bg-gradient-to-b from-base-300 to-transparent opacity-85 h-full w-full group-hover:translate-y-[-30%] translate-x-[-0.5rem] transition-all duration-[500ms]"
       ></div>
 
       <div className="card-body z-20">
