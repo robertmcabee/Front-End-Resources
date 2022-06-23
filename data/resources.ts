@@ -93,7 +93,7 @@ export const resources = [
   {
     id: 9,
     name: "How to design almost any UI element.",
-    url: "https://twitter.com/i/events/994601867987619840",
+    url: "https://twitter.com/vponamariov/status/1381584285300359169",
     description: "A curated list of 58 articles by @vponamariov.",
     tags: ["ui", "design", "css", "reference"],
     starred: false,
