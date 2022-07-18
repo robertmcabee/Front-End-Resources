@@ -1,6 +1,9 @@
 function Footer() {
   return (
-    <footer className="h-[10vh] min-h-[7rem] px-10 text-black dark:text-white w-full">
+    <footer
+      role="footer"
+      className="h-[10vh] min-h-[7rem] px-10 text-black dark:text-white w-full"
+    >
       <div className="flex align-middle justify-center">
         <a
           target="_blank"
