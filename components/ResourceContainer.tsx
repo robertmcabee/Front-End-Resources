@@ -3,10 +3,10 @@ import Resource from "./Resource";
 
 function ResourceContainer({
   filter,
-  toggleFilter,
+  setFilter,
 }: {
   filter: string[];
-  toggleFilter: (tag: string) => void;
+  setFilter: React.Dispatch<React.SetStateAction<string[]>>;
 }): any {
   return (
     <main className="px-4 pb-10 bg-base-100 grid grid-cols-1 xl:grid-cols-4 3xl:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-4 justify-center">
@@ -24,7 +24,7 @@ function ResourceContainer({
               key={resource.id}
               data={resource}
               filter={filter}
-              toggleFilter={toggleFilter}
+              setFilter={setFilter}
             />
           );
       })}

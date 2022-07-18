@@ -11,11 +11,11 @@ interface data {
 function Resource({
   data,
   filter,
-  toggleFilter,
+  setFilter,
 }: {
   data: data;
   filter: string[];
-  toggleFilter: (tag: string) => void;
+  setFilter: React.Dispatch<React.SetStateAction<string[]>>;
 }) {
   let cardClasses =
     "card z-0 shadow-xl group animate-fadein transition-all m-1";
@@ -66,7 +66,7 @@ function Resource({
                 emphasis={false}
                 key={tag}
                 filter={filter}
-                toggleFilter={toggleFilter}
+                setFilter={setFilter}
               />
             );
           })}

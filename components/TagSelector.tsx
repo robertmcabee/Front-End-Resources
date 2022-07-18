@@ -1,10 +1,10 @@
 import Tag from "./Tag";
 function TagSelector({
   filter,
-  toggleFilter,
+  setFilter,
 }: {
   filter: string[];
-  toggleFilter: (tag: string) => void;
+  setFilter: React.Dispatch<React.SetStateAction<string[]>>;
 }): any {
   const mainTags = ["resource", "reference"];
   const otherTags = [
@@ -36,7 +36,7 @@ function TagSelector({
         emphasis={true}
         key={tag}
         filter={filter}
-        toggleFilter={toggleFilter}
+        setFilter={setFilter}
       />
     );
   });
@@ -47,7 +47,7 @@ function TagSelector({
         emphasis={false}
         key={tag}
         filter={filter}
-        toggleFilter={toggleFilter}
+        setFilter={setFilter}
       />
     );
   });
